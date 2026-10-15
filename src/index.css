@@ -1,0 +1,51 @@
+
+:root {
+  color-scheme: dark;
+  --surface: #1b232e;
+  --surface-raised: #1b232e;
+  --foreground: #e7edf5;
+  --muted: #b2bfce;
+  --muted-strong: #c8d2df;
+  --accent: #a49cff;
+  --accent-hover: #8b84ff;
+  --accent-soft: #beb9ff;
+  --accent-action: #655de1;
+  --accent-action-hover: #5148c7;
+  --success: #52c5a7;
+  --warning: #ffc06a;
+  --danger: #ff7e8a;
+  --shadow-light: rgba(255, 255, 255, 0.055);
+  --shadow-dark: rgba(4, 8, 14, 0.62);
+  --shadow-dark-strong: rgba(0, 0, 0, 0.78);
+  --shadow-raised: 8px 8px 16px var(--shadow-dark), -8px -8px 16px var(--shadow-light);
+  --shadow-raised-small: 4px 4px 9px var(--shadow-dark), -4px -4px 9px var(--shadow-light);
+  --shadow-inset: inset 5px 5px 10px var(--shadow-dark), inset -5px -5px 10px var(--shadow-light);
+  --shadow-inset-deep: inset 8px 8px 16px var(--shadow-dark), inset -8px -8px 16px var(--shadow-light);
+  font-family: "DM Sans", "Segoe UI", Arial, sans-serif;
+  color: var(--foreground);
+  background: var(--surface);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100svh;
+}
+
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--surface);
+  font-family: "DM Sans", "Segoe UI", Arial, sans-serif;
+}
